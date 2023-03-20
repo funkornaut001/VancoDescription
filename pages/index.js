@@ -48,11 +48,11 @@ export default function Home() {
           <input
             type="text"
             name="title"
-            placeholder="Enter an title"
+            placeholder="Enter a title"
             value={titleInput}
             onChange={(e) => settitleInput(e.target.value)}
           />
-          <input type="submit" value="Generate description" />
+          <input type="submit" value="Generate Description" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
